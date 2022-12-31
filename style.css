@@ -63,7 +63,7 @@ header > div {
   #general-information {
     display: flex;
     justify-content: space-evenly;
-  }
+  } 
 
   .container {
     width: 1200px;
@@ -77,11 +77,9 @@ header > div {
     justify-content: space-between;
     align-items: center;
    }
+  
    .image {
-
-    display: flex;
-    justify-content:left;
-   width: 0,5 px;
-    height: 0,5 px;
+    width: 20px;
+    margin-right: 1rem;
 
   }
