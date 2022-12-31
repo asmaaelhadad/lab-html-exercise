@@ -40,13 +40,13 @@ header > div {
    justify-content:center;
     font-family: Arial;
     font-size: 50px;
-    
+      
   }
 
   #s {
     height: 600px;
     background-color: rgba(232,217,217,.3)
-    button-background-color: #FB3B49
+    button-background-color : #FB3B49
     button-box-shadow: 8px 8px 0 rgba(251,59,73,.2)
 
   }
@@ -57,7 +57,7 @@ header > div {
     justify-content:center;
    width: 300px;
     height: 300 px;
-
+    border-right: 100px;
   }
 
   #general-information {
@@ -69,6 +69,7 @@ header > div {
     width: 1200px;
     margin: 0 auto;
     padding: 75px 0;
+    align-items: baseline; 
   } 
 
   .section3 {
@@ -81,5 +82,34 @@ header > div {
    .image {
     width: 20px;
     margin-right: 1rem;
+
+  }
+  .Text{
+
+   color: #ED1C24;
+  }
+
+  .Background{
+background-color: red;
+
+  }
+
+  .Section2 {
+
+    display: flex;
+    justify-content:center;
+   width: 300px;
+    height: 300 px;
+
+  }
+
+
+  .Bottom-Section2 
+  
+  {
+    
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid #17212e;
 
   }
