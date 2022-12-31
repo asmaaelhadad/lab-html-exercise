@@ -50,11 +50,38 @@ header > div {
     button-box-shadow: 8px 8px 0 rgba(251,59,73,.2)
 
   }
+  
   .image-triangle {
 
     display: flex;
     justify-content:center;
    width: 300px;
     height: 300 px;
+
+  }
+
+  #general-information {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+  } 
+
+  .section3 {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .image {
+
+    display: flex;
+    justify-content:left;
+   width: 0,5 px;
+    height: 0,5 px;
 
   }
