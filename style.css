@@ -33,3 +33,28 @@ header > div {
     width: 20px;
     margin-right: 1rem;
   }
+
+
+  .Header{
+    display: flex;
+   justify-content:center;
+    font-family: Arial;
+    font-size: 50px;
+    
+  }
+
+  #s {
+    height: 600px;
+    background-color: rgba(232,217,217,.3)
+    button-background-color: #FB3B49
+    button-box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+
+  }
+  .image-triangle {
+
+    display: flex;
+    justify-content:center;
+   width: 300px;
+    height: 300 px;
+
+  }
