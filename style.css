@@ -40,6 +40,9 @@ header > div {
    justify-content:center;
     font-family: Arial;
     font-size: 50px;
+    align-items: center;
+    width: 300;
+
       
   }
 
