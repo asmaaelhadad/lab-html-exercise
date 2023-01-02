@@ -47,7 +47,7 @@ header > div {
       
   }
 
-  #s {
+  .s {
     height: 600px;
     background-color: rgba(232,217,217,.3)
 
@@ -60,8 +60,9 @@ header > div {
     justify-content:center;
    width: 300px;
     height: 300 px;
-   
+   text-align: center;
     align-items: center;
+    position: relative;
   }
 
   #general-information {
@@ -156,6 +157,7 @@ padding: 10px 160px ;
     font-weight: 900;
     box-shadow: 8px 8px 0 rgba(128,83,35,.2);
     padding: 10px 160px ;
+    text-align: center;
   }
 
 
@@ -186,9 +188,16 @@ padding: 10px 160px ;
       
       display: flex;
       justify-content:center;
-      font-size: smaller;
+      font-size: larger;
     
-      align-items: center ;
+      text-align: center ;
 
-      width: 500 px
+      width: 50 px ;
+    }
+
+    .h2class { 
+        text-align: center;
+    
+
+
     }
