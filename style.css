@@ -42,6 +42,7 @@ header > div {
     font-size: 50px;
     align-items: center;
     width: 600;
+    text-align: center;
 
       
   }
@@ -49,8 +50,7 @@ header > div {
   #s {
     height: 600px;
     background-color: rgba(232,217,217,.3)
-    button-background-color : #FB3B49
-    button-box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+
 
   }
   
@@ -60,7 +60,7 @@ header > div {
     justify-content:center;
    width: 300px;
     height: 300 px;
-    border-right: 700px;
+   
     align-items: center;
   }
 
@@ -89,6 +89,8 @@ header > div {
 
   }
   .Text{
+    display: flex;
+    justify-content:center;
 
    color: #ED1C24;
   }
@@ -114,7 +116,7 @@ background-color: red;
     
     display: flex;
     align-items: baseline;
-    border-bottom: 1px solid #17212e;
+   
 
   }
 
@@ -138,3 +140,55 @@ box-shadow: 8px 8px 0 rgba(128,83,35,.2);
 padding: 10px 160px ;
 
   }
+
+
+  .org {
+
+    display: flex;
+    justify-content:center;
+   width: 200px;
+    height: 100 px;
+    border-right: 700px;
+    align-items: center;
+  background-color: black;
+    
+    font-size: 1.5em;
+    font-weight: 900;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    padding: 10px 160px ;
+  }
+
+
+  .botton2 {
+
+    display: flex;
+    
+   width: 200px;
+    height: 100 px;
+    border-right: 700px;
+    align-items: center;
+  background-color: red;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2)
+
+  }
+
+  botton3 { 
+    display: flex;
+    justify-content:center;
+    width: 200px;
+     height: 100 px;
+     
+     align-items: center;
+    
+    }
+
+    .paragraph2 {
+      
+      display: flex;
+      justify-content:center;
+      font-size: smaller;
+    
+      align-items: center ;
+
+      width: 500 px
+    }
